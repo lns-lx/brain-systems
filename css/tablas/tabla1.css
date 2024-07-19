@@ -20,18 +20,43 @@ th, td {
 }
 
 th {
-    background-color: #000;
+    background-color: #26335A;
     color: #fff;
 }
 
-.highlight {
-    background-color: #ffffff;
+td:nth-child(1), 
+td:nth-child(3), 
+td:nth-child(4), 
+td:nth-child(5) {
+    text-align: center;
 }
 
-.icon {
-    width: 20px;
-    height: 20px;
-    background-color: #17794b;
-    display: inline-block;
-    margin-right: 10px;
+
+/*** titulos ***/
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.section-title:first-of-type {
+    font-size: 2em;
+    color: #333;
+}
+
+.section-title:last-of-type {
+    font-size: 1.5em;
+    color: #000;
+}
+
+.section-divider {
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #333;
+    margin: 20px auto;
 }
