@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.table-container {
+    width: 800px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #000;
+    color: #fff;
+}
+
+.highlight {
+    background-color: #ffffff;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    background-color: #17794b;
+    display: inline-block;
+    margin-right: 10px;
+}
