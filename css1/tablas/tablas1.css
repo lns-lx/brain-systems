@@ -31,7 +31,6 @@ td:nth-child(5) {
     text-align: center;
 }
 
-
 /*** titulos ***/
 .section-header {
     text-align: center;
@@ -49,7 +48,7 @@ td:nth-child(5) {
 }
 
 .section-title:last-of-type {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #000;
 }
 
@@ -60,6 +59,8 @@ td:nth-child(5) {
     background-color: #333;
     margin: 20px auto;
 }
+
+
 
 /*********** Tabla 3 ***********/
 
