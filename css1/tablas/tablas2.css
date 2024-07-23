@@ -39,11 +39,14 @@ td:nth-child(5) {
     padding: 20px; /* Opcional: para agregar algo de espacio alrededor del contenido */
     text-align: center; /* Opcional: para centrar el texto */
 }
-
 .section-header h3.section-title {
     font-weight: bold; /* Aplica negrita al título h3 */
 }
-
+.section-header h4.section-title {
+    font-weight: bold; /* Aplica negrita a los títulos h4 */
+    color: #2c3e50; /* Cambia este valor al color que desees */
+    text-align: center; /* Ajusta según tus preferencias */
+}
 .section-header h5.section-title {
     font-weight: normal; /* Mantén el peso normal para los títulos h5 */
     text-align: center; /* Ajusta según tus preferencias */

@@ -83,7 +83,7 @@ table {
 th, td {
     border: 1px solid black;
     padding: 10px;
-    text-align: left;
+    text-align: center;
     vertical-align: top;
 }
 
@@ -104,25 +104,13 @@ li {
 
 /* Asegura que todo el contenido dentro de las celdas esté alineado a la izquierda */
 td *, th * {
-    text-align: left;
+    text-align: center;
 }
 
-/**********************/
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
+/*********** Pequeñas ***********/
 th, td {
-    border: 1px solid #000; /* Borde alrededor de cada celda */
+    border: 1px solid black;
+    text-align: center; /* Centra el texto horizontalmente */
+    vertical-align: middle; /* Centra el texto verticalmente */
     padding: 8px;
-    text-align: left;
-}
-
-.fortalezas-row, .debilidades-row {
-    border-bottom: 2px solid #000; /* Línea divisora más gruesa */
-}
-
-tr td:nth-child(1), tr td:nth-child(2), tr td:nth-child(3), tr td:nth-child(4) {
-    border-bottom: 1px solid #000; /* Línea divisora en las celdas hasta la tercera columna */
-}
+  }
