@@ -24,26 +24,22 @@ th {
     color: #fff;
 }
 
-td:nth-child(1), 
-td:nth-child(3), 
-td:nth-child(4), 
-td:nth-child(5) {
-    text-align: center;
-}
 
 /*** titulos ***/
-
 .section-header {
     max-width: 1200px; /* Ajusta este valor según tus necesidades */
     margin: 0 auto;
     padding: 20px; /* Opcional: para agregar algo de espacio alrededor del contenido */
     text-align: center; /* Opcional: para centrar el texto */
 }
-
 .section-header h3.section-title {
     font-weight: bold; /* Aplica negrita al título h3 */
 }
-
+.section-header h4.section-title {
+    font-weight: bold; /* Aplica negrita a los títulos h4 */
+    color: #2c3e50; /* Cambia este valor al color que desees */
+    text-align: center; /* Ajusta según tus preferencias */
+}
 .section-header h5.section-title {
     font-weight: normal; /* Mantén el peso normal para los títulos h5 */
     text-align: center; /* Ajusta según tus preferencias */
@@ -53,20 +49,6 @@ td:nth-child(5) {
     height: 1px;
     background: #ddd;
     margin: 20px 0; /* Espaciado vertical para el divisor */
-}
-
-
-/*********** Tabla 3 ***********/
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: center;
 }
 
 /*********** Tabla 4 ***********/

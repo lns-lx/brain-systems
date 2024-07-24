@@ -16,7 +16,7 @@ table {
 th, td {
     border: 1px solid #000;
     padding: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 th {
@@ -24,8 +24,15 @@ th {
     color: #fff;
 }
 
+td:nth-child(1), 
+td:nth-child(3), 
+td:nth-child(4), 
+td:nth-child(5) {
+    text-align: center;
+}
 
 /*** titulos ***/
+
 .section-header {
     max-width: 1200px; /* Ajusta este valor según tus necesidades */
     margin: 0 auto;
@@ -51,6 +58,20 @@ th {
     margin: 20px 0; /* Espaciado vertical para el divisor */
 }
 
+
+/*********** Tabla 3 ***********/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
 /*********** Tabla 4 ***********/
 body {
     font-family: Arial, sans-serif;
@@ -66,7 +87,7 @@ th, td {
     border: 1px solid black;
     padding: 10px;
     text-align: center;
-    vertical-align: top;
+    vertical-align: middle
 }
 
 
@@ -86,5 +107,25 @@ li {
 
 /* Asegura que todo el contenido dentro de las celdas esté alineado a la izquierda */
 td *, th * {
-    text-align: left;
+    text-align: center;
+}
+
+/**********************/
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000; /* Borde alrededor de cada celda */
+    padding: 8px;
+    text-align: center;
+}
+
+.fortalezas-row, .debilidades-row {
+    border-bottom: 2px solid #000; /* Línea divisora más gruesa */
+}
+
+tr td:nth-child(1), tr td:nth-child(2), tr td:nth-child(3), tr td:nth-child(4) {
+    border-bottom: 1px solid #000; /* Línea divisora en las celdas hasta la tercera columna */
 }
